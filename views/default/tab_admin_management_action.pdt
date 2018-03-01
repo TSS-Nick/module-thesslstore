@@ -45,4 +45,17 @@
         <?php
         $this->Form->end();
     } ?>
+
+    <?php if($orderMajorStatus=='Pending' || $orderMinorStatus=='PENDING_REISSUE' || $orderMajorStatus=='Active')
+        {
+            $this->Form->create($this->base_uri . "clients/servicetab/" . $this->Html->ifSet($clientID) . "/" . $this->Html->ifSet($serviceID) . "/tabAdminDownloadCSR/");
+            ?>
+            <div class="button_row">
+            <button class="btn btn-default pull-left" type="submit" name="save">
+                <?php $this->_("ThesslstoreModule.tab_DownloadCSRFile");?>
+            </button>
+            </div>
+            <?php
+            $this->Form->end();
+        } ?>
 </div>

@@ -120,6 +120,10 @@ $lang['ThesslstoreModule.!error.download_cert_invalid_state'] = "Download Certif
 //Management Action tab admin side
 $lang['ThesslstoreModule.!error.initial_order_status'] = "This feature is not available for the initial order.";
 
+//Download CSR tab field
+$lang['ThesslstoreModule.tab_DownloadCSRFile'] = "Download CSR";
+$lang['ThesslstoreModule.!error.download_csr_not_available'] = "Download CSR feature is not available for this order.";
+
 //Client Service Management -
 $lang['ThesslstoreModule.tab_GenerateCert'] = "Generate Certificate";
 $lang['ThesslstoreModule.tab_generate_cert.heading_approver_email'] = "Select Approver Email";
