@@ -9,7 +9,7 @@ class ThesslstoreModule extends Module {
     /**
      * @var string The version of this module
      */
-    private static $version = "1.6.0";
+    private static $version = "1.7.0";
 
     /**
      * @var string The name of this module
